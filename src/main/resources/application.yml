@@ -1,0 +1,7 @@
+server:
+    port: 9191
+spring:
+    batch:
+        initialize-schema: ALWAYS
+        job:
+            enabled: false
