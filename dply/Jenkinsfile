@@ -1,6 +1,7 @@
 pipeline {
     agent {
         kubernetes {
+            yamlFile 'dply/build-pod.yaml'
             defaultContainer 'jenkins-agent'
         }
     }
